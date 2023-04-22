@@ -28,7 +28,7 @@ public class Primaria extends Alumno {
     public Double promedio() {
         double prom;
          prom = ((getEf() + getEp() + getPp() + P_Arte)/4);
-         System.out.println("promedio: "+ prom);
+         System.out.println("Promedio Segundaria: "+ prom);
          return prom;
                          
     }
