@@ -20,7 +20,7 @@ public class Primaria extends Alumno {
     public String Imprimir() {
         String mensaje;
         mensaje = mostrar();
-        mensaje += "\nPromedio de Arte" + P_Arte;
+        mensaje += "\nPromedio de Arte: " + P_Arte;
         System.out.println("Imprimir"+mensaje);
         return mensaje;
     }

@@ -30,11 +30,11 @@ public class POOSemana4 {
             tipo = opcion();
             nombre = dato("Cual es tu nombre");
             apellido = dato("Cual es tu apellido");
-            mensaje = dato("Promedio Examen Practicas");
+            mensaje = "Promedio Examen Practicas";
             pp = Double.parseDouble(dato(mensaje));
-            mensaje = dato("Promedio Examen Parcial");
+            mensaje = "Promedio Examen Parcial";
             ep = Double.parseDouble(dato(mensaje));
-            mensaje = dato("Promedio Examen Final");
+            mensaje = "Promedio Examen Final";
             ef = Double.parseDouble(dato(mensaje));
             x++;
             switch (tipo) {
@@ -46,8 +46,8 @@ public class POOSemana4 {
                     Primaria estPrimaria = new Primaria(parte, nombre, apellido, pp, ep, ef);
                     mensaje += estPrimaria.Imprimir();
                     promedio = estPrimaria.promedio();
-                    mensaje += "\nPromedio:" + promedio;
-                    if (promedio < 12) {
+                    mensaje += "\nPromedio: " + promedio;
+                    if (promedio > 12) {
                         aprobados++;
                         mensaje += "\nAprobado";
                     } else {

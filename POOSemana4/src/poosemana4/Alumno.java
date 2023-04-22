@@ -22,12 +22,12 @@ public class Alumno {
         String mensaje;
         generarCodigo();
 
-        mensaje = "\nNombre" + nombre;
-        mensaje += "\nApellido" + apellido;
-        mensaje += "\nCodigo" + codigo;
-        mensaje += "\nPromedio de Practicas" + pp;
-        mensaje += "\nExamen parcial" + ep;
-        mensaje += "\nExamen Final" + ef;
+        mensaje = "\nNombre: " + nombre;
+        mensaje += "\nApellido: " + apellido;
+        mensaje += "\nCodigo: " + codigo;
+        mensaje += "\nPromedio de Practicas: " + pp;
+        mensaje += "\nExamen parcial: " + ep;
+        mensaje += "\nExamen Final: " + ef;
         return mensaje;
     }
 
